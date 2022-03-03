@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", "Times New Roman", Times, serif;
+  min-height: 100 vh;
+  background-color: rgb(197, 231, 235);
+  max-height: 100vh;
+  height: 1005;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px #b7b7b8;
+}
+#list-input {
+  border: none;
+  height: 2rem;
+  cursor: pointer;
+  width: 357px;
+}
+
+.btn {
+  height: 2rem;
+  width: 3rem;
+}
+
+.cross-btn {
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+  color: white;
+  border: none;
+  margin: 0px;
+  padding: 0%;
+}
+.tick-btn {
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+  color: white;
+  border: none;
+  padding: 0%;
+  font-weight: bold;
+}
+
+.tick-btn:hover,
+.cross-btn:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.work-container {
+  height: 2rem;
+  /* width: 3rem; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: left;
+  align-items: center;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 2px #b7b7b8;
+}
+
+ul {
+  list-style: none;
+
+  padding: 0px;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phara {
+  width: 300px;
+  padding: 10px;
+}

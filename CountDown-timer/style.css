@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", "Times New Roman", Times, serif;
+  margin: 0;
+  background-image: url("./Holi.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-top: 5rem;
+}
+.conatiner-time {
+  display: flex;
+  font-size: 20px;
+}
+
+p {
+  font-size: 50px;
+  font-weight: bold;
+}
+.container-day {
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container-hour {
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container-min {
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container-sec {
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#day-digit {
+  margin: 0 2rem;
+  margin: 0;
+}
+
+#hour-digit {
+  margin: 0 2rem;
+  margin: 0;
+}
+#min-digit {
+  margin: 0 2rem;
+  margin: 0;
+}
+#sec-digit {
+  margin: 0 2rem;
+  margin: 0;
+}
